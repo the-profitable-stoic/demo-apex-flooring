@@ -1,0 +1,488 @@
+{
+  "business": {
+    "name": "Apex Flooring",
+    "phone": "555-flo-r92",
+    "category": "flooring",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  "design": {
+    "preset": {
+      "id": "flooring-red-charge",
+      "categoryGroup": "flooring",
+      "name": "Red Charge",
+      "recipeFile": "flooring/red-charge.astro",
+      "colors": {
+        "primary": "#92400E",
+        "primaryDark": "#78350F",
+        "primaryLight": "#e4cfc3",
+        "secondary": "#833a0d",
+        "accent": "#D97706",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#92400E",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "flooring/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevate Your Columbus Home",
+      "heroSubline": "Premium flooring solutions designed for Central Ohio's climate. Transform your space with materials that withstand our freeze-thaw winters and humid summers.",
+      "aboutTitle": "Crafting Floors That Last",
+      "aboutText": [
+        "Founded in 2012, Apex Flooring began with a simple mission: to bring durable, beautiful flooring to Columbus homes. Our founder, a third-generation flooring specialist, recognized the need for surfaces that could handle our region's dramatic seasonal shifts.",
+        "We combine artisan craftsmanship with scientific precision, selecting materials based on your home's architecture, subfloor conditions, and lifestyle needs. Every installation includes our climate-adaptive preparation process.",
+        "As active members of the Short North Arts District, we're committed to preserving the character of Columbus homes while integrating modern performance."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adaptive Floors",
+          "description": "Our proprietary moisture testing prevents buckling in humid summers and cracking during freeze-thaw cycles."
+        },
+        {
+          "title": "Historic Home Specialists",
+          "description": "We seamlessly integrate modern materials into Tudor and Colonial homes without compromising heritage charm."
+        },
+        {
+          "title": "Subfloor Diagnostics",
+          "description": "Comprehensive evaluation of your foundation and joists to prevent future issues related to clay soil shifting."
+        },
+        {
+          "title": "Neighborhood Knowledge",
+          "description": "From German Village's brick streets to Dublin's modern subdivisions, we understand your area's unique flooring needs."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Flooring Assessment",
+      "ctaSubline": "Let's discuss materials that complement your home's architecture and stand up to Ohio's climate."
+    },
+    "services": [
+      {
+        "slug": "hardwood-flooring-installation",
+        "name": "Hardwood Flooring Installation",
+        "shortDescription": "Timeless hardwood tailored to Columbus homes, engineered to withstand seasonal expansion.",
+        "description": "Our hardwood installations begin with a 12-point subfloor evaluation, crucial in Central Ohio where clay soil causes foundation movement. For historic homes in German Village or Clintonville, we source width-matched planks that preserve original character while adding modern stability layers.\n\nWe prefer quarter-sawn oak for its resistance to our humid summers, and always include expansion gaps sized for Columbus' 50°F annual temperature swing. For basements in Worthington's mid-century ranches, we install moisture barriers rated for 90% relative humidity.\n\nEvery project includes our ClimateGuard™ finish that resists salt damage from winter boots and UV fading in sun-drenched Short North lofts.",
+        "process": [
+          "Step 1: 48-hour acclimation period with humidity monitoring",
+          "Step 2: Laser-level subfloor preparation with self-leveling compound for uneven foundations",
+          "Step 3: Precision installation using movement-accommodating fastening systems",
+          "Step 4: Three-layer protective finish cured under controlled conditions"
+        ],
+        "benefits": [
+          "Authentic reproduction of historic plank widths",
+          "Reduces squeaks caused by winter dryness",
+          "Matte finishes hide common scuffs from winter footwear",
+          "10-year guarantee against seasonal cupping"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my 1920s original hardwood?",
+            "answer": "We maintain a local inventory of reclaimed lumber and custom mill matching services for historic homes. Last year we perfectly replicated flooring in a Short North Victorian using original-growth pine from Indiana."
+          },
+          {
+            "question": "How does your hardwood handle snow melt?",
+            "answer": "Our proprietary sealant penetrates 25% deeper than standard finishes, creating a barrier against salt and moisture damage common in Dublin entryways during winter."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-vinyl-plank-installation",
+        "name": "Luxury Vinyl Plank Installation",
+        "shortDescription": "Waterproof luxury vinyl perfect for basement rec rooms and busy family homes.",
+        "description": "In Grove City's affordable neighborhoods where basement finishing is common, our luxury vinyl plank (LVP) installations solve moisture issues that damage traditional materials. We use commercial-grade planks with attached cork underlayment—essential for reducing noise in Upper Arlington's open-concept homes.\n\nFor Colonial Revivals in Bexley, we offer hand-scraped textures that mimic original hardwoods while providing waterproof protection. Our rigid core planks won't warp when basement humidity spikes during July thunderstorms.\n\nWe particularly recommend LVP for connecting spaces between indoor and outdoor living areas—the planks resist temperature extremes from Westerville's snowy winters to muggy summer evenings.",
+        "process": [
+          "Step 1: Concrete moisture testing (critical in Ohio basements)",
+          "Step 2: Precision laser measurements to minimize cuts in visible areas",
+          "Step 3: Expansion gap planning for seasonal temperature changes",
+          "Step 4: Seam sealing with industrial-grade waterproof adhesive"
+        ],
+        "benefits": [
+          "100% waterproof for basement playrooms",
+          "Warmer underfoot than tile during winter",
+          "Scratch-resistant surface for active households",
+          "Can be installed over most existing surfaces"
+        ],
+        "faq": [
+          {
+            "question": "Will vinyl plank look cheap in my historic home?",
+            "answer": "Our artisan series replicates saw marks and grain patterns so accurately that visitors often mistake it for real wood. We recently used distressed walnut planks in a Clintonville bungalow that complemented its original craftsman details."
+          },
+          {
+            "question": "How does it handle winter boots?",
+            "answer": "The wear layer resists salt stains better than traditional hardwood—ideal for Dublin homes where snowy shoes are inevitable six months per year."
+          }
+        ]
+      },
+      {
+        "slug": "tile-flooring-installation",
+        "name": "Tile Flooring Installation",
+        "shortDescription": "Durable tile solutions for Columbus' varied climates and architectural styles.",
+        "description": "From German Village's historic kitchens to Hilliard's modern master baths, our tile installations combine beauty with functionality for Ohio's climate. We use fracture-resistant porcelain tiles rated for freeze-thaw cycles—a must for sunrooms in Worthington homes.\n\nFor 1970s ranch houses common in Westerville, we install radiant heating systems beneath tile to combat cold floors during January's deep freezes. Our craftsmen cut intricate patterns that reference Columbus landmarks—like a recent Short North condo featuring a tile mural of the Goodale Park fountain.\n\nWe address Columbus' hard water issues with stain-proof grout formulations and slope shower floors precisely to prevent standing water—a common problem in older homes with uneven foundations.",
+        "process": [
+          "Step 1: Structural assessment to ensure floor can support tile weight",
+          "Step 2: Custom underlayment for thermal and crack isolation",
+          "Step 3: Precision layout using laser levels for perfect alignment",
+          "Step 4: Sealing with penetrating protectors against mineral deposits"
+        ],
+        "benefits": [
+          "Withstands temperature extremes from -10°F to 100°F",
+          "Radiant heat compatible for chilly mornings",
+          "Stain-resistant grout formulations for hard water",
+          "Historic pattern reproductions available"
+        ],
+        "faq": [
+          {
+            "question": "Can tile crack during Ohio winters?",
+            "answer": "Our fracture-resistant porcelain and decoupling membrane system prevents cracks even when temperatures swing 40 degrees in 24 hours—common during Columbus' volatile springs."
+          },
+          {
+            "question": "Do you match historic tile patterns?",
+            "answer": "Yes, we've recreated 1920s hex tile borders for several German Village renovations using molds made from original pieces. Our glaze formulations mimic early 20th century finishes."
+          }
+        ]
+      },
+      {
+        "slug": "carpet-installation",
+        "name": "Carpet Installation",
+        "shortDescription": "Plush, durable carpets for cozy Ohio winters without trapping allergens.",
+        "description": "In Upper Arlington's traditional colonials and Dublin's family homes, our carpet installations provide warmth during bitter January nights while resisting the humidity of July. We use wool blends with natural stain resistance—perfect for Westerville households with pets and kids.\n\nOur premium underpad system includes a moisture barrier essential for basement installations in Grove City, where concrete can transmit dampness. For allergy sufferers in Clintonville, we offer hypoallergenic fibers that don't harbor dust mites.\n\nWe specialize in intricate stair runners for Bexley's grand staircases, using a specialized stretching technique that prevents wrinkles from developing due to seasonal humidity changes.",
+        "process": [
+          "Step 1: Subfloor preparation including tack strip replacement",
+          "Step 2: Precision measuring with 10% overage for pattern matching",
+          "Step 3: Power stretching for wrinkle-free durability",
+          "Step 4: Seam sealing with commercial-grade adhesives"
+        ],
+        "benefits": [
+          "Wool blends resist static during dry winters",
+          "Mold-resistant backing for basement installations",
+          "Stair-specific weaving techniques",
+          "25-year wear warranties on select products"
+        ],
+        "faq": [
+          {
+            "question": "Will carpet make my allergies worse?",
+            "answer": "Our hypoallergenic carpets actually trap and hold allergens until vacuuming—reducing airborne particles. Many Hilliard allergy patients report improvement after installation."
+          },
+          {
+            "question": "How does carpet handle snow melt?",
+            "answer": "Our stain-resistant treatments cause moisture to bead up rather than absorb, giving you time to blot up tracked-in snow before it stains—critical for entries in snowy suburbs like Dublin."
+          }
+        ]
+      },
+      {
+        "slug": "floor-refinishing",
+        "name": "Floor Refinishing",
+        "shortDescription": "Breath new life into worn hardwood while preserving historic character.",
+        "description": "Columbus' historic homes often have original hardwood hidden beneath layers of old finish. Our refinishing process carefully preserves these irreplaceable floors while addressing decades of wear. For Short North lofts with industrial character, we offer wire-brushed finishes that highlight the wood's natural texture.\n\nWe've perfected techniques for dealing with common Ohio issues: filler formulations that move with seasonal expansion, stains that penetrate unevenly worn planks to create uniform color, and finishes that resist clouding from summer humidity. In German Village brick homes, we often discover beautiful pine floors beneath old carpet—our gentle sanding reveals their hidden beauty.\n\nOur dust-containment system keeps your home clean during the process—a priority for families in Hilliard and Upper Arlington who can't vacate during renovations.",
+        "process": [
+          "Step 1: Nail detection and countersinking to prevent sandpaper damage",
+          "Step 2: Multi-stage sanding with progressively finer grits",
+          "Step 3: Custom stain blending to match original tones",
+          "Step 4: Low-VOC finish application in controlled conditions"
+        ],
+        "benefits": [
+          "Preserves original floor thickness (critical for historic homes)",
+          "Eliminates winter squeaks through precise board re-securing",
+          "Matte finishes hide typical wear patterns",
+          "5-year guarantee against finish failure"
+        ],
+        "faq": [
+          {
+            "question": "Can you fix gaps that appear in winter?",
+            "answer": "We use flexible wood fillers that compress during dry winter months rather than crack out. For severe cases in pre-1940s homes, we recommend our seasonal adjustment service."
+          },
+          {
+            "question": "How long before we can walk on refinished floors?",
+            "answer": "Our fast-cure finishes allow light use in 12 hours—essential for busy Columbus households. Full curing achieves maximum hardness in 72 hours."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith K.",
+        "rating": 5,
+        "service": "Hardwood Flooring Installation",
+        "text": "Apex transformed our 1937 Bexley home with white oak floors that perfectly match the original portions we uncovered. Their team anticipated exactly how the clay soil under our foundation would affect the new installation—three winters later, not a single squeak or gap. The walnut inlay border referencing the Ohio Theatre marquee was a stunning personal touch.",
+        "date": "2025-02-14"
+      },
+      {
+        "name": "Daniel R.",
+        "rating": 5,
+        "service": "Luxury Vinyl Plank Installation",
+        "text": "Our finished basement in Grove City used to flood every spring until Apex installed their waterproof vinyl planks. When our sump pump failed during that April downpour, we had 2 inches of water—just wiped it up with no damage. The textured finish looks exactly like the reclaimed barn wood we wanted but couldn't afford.",
+        "date": "2025-01-05"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Tile Flooring Installation",
+        "text": "The radiant-heated tile Apex installed in our Westerville bathroom makes winter mornings bearable. They matched the original 1978 sunburst pattern perfectly when we expanded the bathroom. Most impressive—they corrected our uneven floor slope that had caused pooling water for decades.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Ethan T.",
+        "rating": 5,
+        "service": "Carpet Installation",
+        "text": "As parents of three kids and two golden retrievers in Upper Arlington, we thought nice carpet was impossible. Two years later, Apex's wool blend still looks new despite constant traffic and multiple juice spills. Their stain treatment repels everything—even melted snow with road salt.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Olivia M.",
+        "rating": 5,
+        "service": "Floor Refinishing",
+        "text": "The crew uncovered original heart pine floors beneath three layers of old linoleum in our German Village home. Their delicate sanding preserved all the character marks while making them smooth enough for bare feet. The custom-mixed stain matches our 1920s woodwork perfectly.",
+        "date": "2024-09-30"
+      },
+      {
+        "name": "Nathan B.",
+        "rating": 5,
+        "service": "Hardwood Flooring Installation",
+        "text": "We bought a 1960s ranch in Hilliard with terrible DIY flooring jobs. Apex not only installed gorgeous hickory floors but fixed the subfloor issues causing unevenness. Their climate-control recommendations have kept the boards stable through two Ohio winters and summers already.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Columbus Flooring Experts | Apex Flooring OH",
+        "description": "Premium flooring installations designed for Central Ohio's climate. Serving Columbus, Dublin, Westerville with hardwood, LVP, tile, and carpet since 2012."
+      },
+      "about": {
+        "title": "About Our Columbus Flooring Company",
+        "description": "Meet the Apex Flooring team—local experts crafting durable, beautiful floors for Ohio homes since 2012. Learn our climate-smart approach."
+      },
+      "services": {
+        "title": "Columbus Flooring Services | Hardwood to Tile",
+        "description": "Comprehensive flooring solutions for Central Ohio homes, from historic hardwood restoration to waterproof LVP installations in basements."
+      },
+      "contact": {
+        "title": "Contact Apex Flooring in Columbus OH",
+        "description": "Schedule your free flooring consultation. Serving Columbus, Dublin, Westerville, Hilliard, and Grove City with premium installations."
+      },
+      "reviews": {
+        "title": "Apex Flooring Reviews | Columbus OH",
+        "description": "See why Columbus homeowners trust Apex Flooring for their hardwood, tile, and luxury vinyl installations. 97% satisfaction rating."
+      },
+      "service-areas": {
+        "title": "Flooring Service Areas Near Columbus OH",
+        "description": "Proudly serving Dublin, Westerville, Hilliard, Grove City and all Franklin County with premium flooring installations and refinishing."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Dublin",
+        "slug": "dublin-oh",
+        "state": "OH",
+        "content": "Apex Flooring proudly serves the upscale neighborhoods of Dublin, OH, where many homes were built in the 1980s-2000s. Our expertise in high-end flooring solutions, including hardwood, luxury vinyl, and tile, makes us the perfect choice for homeowners looking to upgrade their interiors. Dublin's cold, snowy winters and freeze-thaw cycles can wreak havoc on flooring, but our durable, weather-resistant materials ensure long-lasting beauty and functionality.",
+        "localContext": "Dublin features upscale subdivisions with modern homes and a demand for premium flooring materials.",
+        "nearbyAreas": [
+          "Hilliard",
+          "Worthington",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Westerville",
+        "slug": "westerville-oh",
+        "state": "OH",
+        "content": "In Westerville, OH, Apex Flooring specializes in updating the flooring of 1970s-80s established suburban homes. Our team understands the wear and tear that comes with decades of use, and we offer solutions like refinishing hardwood, replacing carpet, and installing scratch-resistant laminates. The cold winters and freeze-thaw damage common in Westerville make it essential to choose flooring that can withstand harsh weather conditions—something we excel at providing.",
+        "localContext": "Westerville's older suburbs often need flooring updates to match modern aesthetics and durability standards.",
+        "nearbyAreas": [
+          "Gahanna",
+          "New Albany",
+          "Lewis Center"
+        ]
+      },
+      {
+        "city": "Hilliard",
+        "slug": "hilliard-oh",
+        "state": "OH",
+        "content": "Apex Flooring is a trusted name in Hilliard, OH, where many homes were built in the 1980s-90s for growing families. We offer a wide range of family-friendly flooring options, including stain-resistant carpets, waterproof vinyl, and durable hardwood. Hilliard's cold, snowy winters and freeze-thaw cycles demand resilient flooring, and our solutions are designed to handle these challenges while keeping your home stylish and comfortable.",
+        "localContext": "Hilliard's family-oriented subdivisions benefit from durable, low-maintenance flooring options.",
+        "nearbyAreas": [
+          "Dublin",
+          "Columbus",
+          "Grove City"
+        ]
+      },
+      {
+        "city": "Grove City",
+        "slug": "grove-city-oh",
+        "state": "OH",
+        "content": "Grove City, OH, homeowners trust Apex Flooring for affordable yet high-quality flooring solutions tailored to their 1970s-80s homes. Whether you need budget-friendly laminates, cozy carpets, or easy-to-clean tile, we provide options that fit your lifestyle. The cold winters and freeze-thaw damage in Grove City make it crucial to invest in durable flooring, and our team ensures your floors stay beautiful year-round.",
+        "localContext": "Grove City's affordable housing stock often requires cost-effective yet durable flooring upgrades.",
+        "nearbyAreas": [
+          "Columbus",
+          "Hilliard",
+          "South-Western City"
+        ]
+      },
+      {
+        "city": "Worthington",
+        "slug": "worthington-oh",
+        "state": "OH",
+        "content": "Apex Flooring serves Worthington, OH, a charming community with a mix of historic and modern homes. Our flooring solutions include refinishing original hardwoods, installing eco-friendly materials, and updating outdated floors with contemporary styles. Worthington's cold winters and freeze-thaw cycles can damage flooring, but our expert installations ensure your floors remain pristine.",
+        "localContext": "Worthington's blend of historic and newer homes demands versatile flooring expertise.",
+        "nearbyAreas": [
+          "Dublin",
+          "Columbus",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Gahanna",
+        "slug": "gahanna-oh",
+        "state": "OH",
+        "content": "In Gahanna, OH, Apex Flooring provides top-tier flooring services for homes in need of modern updates. From luxury vinyl planks to stylish tile, we help homeowners revitalize their spaces. Gahanna's cold winters and freeze-thaw cycles require durable flooring, and our high-performance materials are built to last.",
+        "localContext": "Gahanna's growing suburban community benefits from modern, resilient flooring choices.",
+        "nearbyAreas": [
+          "Westerville",
+          "New Albany",
+          "Columbus"
+        ]
+      },
+      {
+        "city": "Powell",
+        "slug": "powell-oh",
+        "state": "OH",
+        "content": "Powell, OH, homeowners trust Apex Flooring for premium flooring solutions in their upscale residences. We specialize in hardwood refinishing, custom tile work, and high-end vinyl installations. Powell's cold winters and freeze-thaw damage can be tough on floors, but our expert craftsmanship ensures lasting quality and elegance.",
+        "localContext": "Powell's luxury homes demand high-end flooring with superior durability.",
+        "nearbyAreas": [
+          "Dublin",
+          "Worthington",
+          "Delaware"
+        ]
+      },
+      {
+        "city": "New Albany",
+        "slug": "new-albany-oh",
+        "state": "OH",
+        "content": "Apex Flooring serves New Albany, OH, a community known for its high-end homes and meticulous design standards. We offer luxury flooring options like exotic hardwoods, designer tile, and seamless epoxy finishes. New Albany's cold, snowy winters necessitate durable materials, and our solutions combine beauty with resilience.",
+        "localContext": "New Albany's affluent community expects nothing less than top-quality flooring.",
+        "nearbyAreas": [
+          "Gahanna",
+          "Westerville",
+          "Columbus"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "luxury-vinyl-plank-installation": "/images/service-luxury-vinyl-plank-installation.webp",
+      "tile-flooring-installation": "/images/service-tile-flooring-installation.webp",
+      "carpet-installation": "/images/service-carpet-installation.webp",
+      "floor-refinishing": "/images/service-floor-refinishing.webp",
+      "hardwood-flooring-installation": "/images/service-hardwood-flooring-installation.webp"
+    },
+    "servicesResponsive": {
+      "luxury-vinyl-plank-installation": {
+        "src": "/images/service-luxury-vinyl-plank-installation.webp",
+        "srcset": "/images/service-luxury-vinyl-plank-installation-400w.webp 400w, /images/service-luxury-vinyl-plank-installation-800w.webp 800w, /images/service-luxury-vinyl-plank-installation-1200w.webp 1200w, /images/service-luxury-vinyl-plank-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tile-flooring-installation": {
+        "src": "/images/service-tile-flooring-installation.webp",
+        "srcset": "/images/service-tile-flooring-installation-400w.webp 400w, /images/service-tile-flooring-installation-800w.webp 800w, /images/service-tile-flooring-installation-1200w.webp 1200w, /images/service-tile-flooring-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "carpet-installation": {
+        "src": "/images/service-carpet-installation.webp",
+        "srcset": "/images/service-carpet-installation-400w.webp 400w, /images/service-carpet-installation-800w.webp 800w, /images/service-carpet-installation-1200w.webp 1200w, /images/service-carpet-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "floor-refinishing": {
+        "src": "/images/service-floor-refinishing.webp",
+        "srcset": "/images/service-floor-refinishing-400w.webp 400w, /images/service-floor-refinishing-800w.webp 800w, /images/service-floor-refinishing-1200w.webp 1200w, /images/service-floor-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hardwood-flooring-installation": {
+        "src": "/images/service-hardwood-flooring-installation.webp",
+        "srcset": "/images/service-hardwood-flooring-installation-400w.webp 400w, /images/service-hardwood-flooring-installation-800w.webp 800w, /images/service-hardwood-flooring-installation-1200w.webp 1200w, /images/service-hardwood-flooring-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
